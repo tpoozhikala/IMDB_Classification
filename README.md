@@ -23,9 +23,9 @@ Method to generate 80/20 train test splits for the datasets of numpy RGB values 
 Keras Image Classificaiton model development and training steps detailed in [Training_and_Modeling Notebook](https://github.com/tpoozhikala/IMDB_Classification/blob/main/5_Training_and_Modeling/05_Training_and_Modeling_IMBD_Classification.ipynb).
 
 Results regarding best model performer and correspdoing ROC AUC values for few genres were: 
-| Model Name | f1_score | ROC_AUC_Comedy  | ROC_AUC_Adventure | ROC_AUC_Drama | ROC_AUC_Documentary |
-| ------- | --- | --- | --- | --- | --- | 
-| Keras Image Classification Model | 	0.25258895 |	0.4978308 |	0.49173069 | 	0.49308443 | 	0.503067484 |	
+| Model Name | f1_score micro | ROC_AUC_Adventure  | ROC_AUC_Action | ROC_AUC_Biography | ROC_AUC_Comedy | ROC_AUC_Documentary |
+| ------- | --- | --- | --- | --- | --- | --- |
+| Keras Image Classification Model | 0.0186766 |	0.5028001 |	0.5041314 | 0.5062588 | 	0.5012803 |	0.5037350 |
 
 ## Results/Conclusion
 Improvements will need to be implemented before model can be delployed to production such as increasing sample size of genres and performing 5-fold cross validation instead of 3-fold. 
